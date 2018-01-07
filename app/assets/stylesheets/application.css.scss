@@ -13,6 +13,7 @@
  *= require devise_bootstrap_views
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 
 .results-block {
@@ -40,7 +41,7 @@
 		color: #fff !important;
 		margin-top: 5%;
 	}
-	.button-danger:hover {
+	.btn-danger:hover {
 		background-color: darken(#d9534f, 20%) !important;
 	}
 }
